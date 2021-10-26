@@ -305,6 +305,10 @@ svg {
   vertical-align: middle;
 }
 
+.icon {
+  opacity: 0.25;
+}
+
 table {
   caption-side: bottom;
   border-collapse: collapse;
