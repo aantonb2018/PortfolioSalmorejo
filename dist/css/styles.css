@@ -7942,6 +7942,11 @@ textarea.form-control-lg {
   color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
 }
 
+.text-blue {
+  --bs-text-opacity: 1;
+   color: #34255b; /* Will override color (regardless of order) */
+}
+
 .text-body {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-body-color-rgb), var(--bs-text-opacity)) !important;
@@ -11575,6 +11580,9 @@ body {
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
   color: #34255b;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #34255b;
   -webkit-background-clip: text;
           background-clip: text;
 }
